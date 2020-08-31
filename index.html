@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Game Changer</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="text-center text-light my-3">
+            <h1 class="mb-3">Game Change <img src="./img/favicon.ico"></h1>
+            <p class="mb-4 text-center">Game Change <img src="./img/favicon-16x16.png"> lists all the users who are not
+                following you back on Github</p>
+        </header>
+        <div class="input-group mb-2">
+            <input type="text" class="username form-control" placeholder="Your Github Username"
+                aria-label="Github's Username" aria-describedby="button-addon2">
+            <div class="input-group-append">
+                <button class="submit btn btn-outline-light">Let's Begin</button>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="spinner-border text-light d-none" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <ul class="list-group unFUser mx-auto text-light"></ul>
+        <p class="mb-4 text-center error"></p>
+
+        <div class="text-center space2">
+            <h5><a href="https://github.com/AsishRaju"><span class="badge badge-light">If you like the project please
+                        follow the author on
+                        github 🙏🏻</span></a></h5>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+        </script>
+        <script src="https://kit.fontawesome.com/0de963d6c4.js" crossorigin="anonymous"></script>
+        <script src="./js/script.js"></script>
+        <script src="./js/app.js"></script>
+</body>
+
+</html>
